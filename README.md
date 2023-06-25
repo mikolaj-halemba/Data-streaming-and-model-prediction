@@ -34,10 +34,10 @@
 Remember to ensure that the Kafka server and MongoDB server are running properly before proceeding with the steps above.
 
 <h2>Structure: </h2>
-- app.py: Script for reading data from Kafka, applying the schema, using the trained model for prediction and storing the results in MongoDB.
-- sendStream.py: Script for streaming data from a CSV file to a Kafka topic.
-- clf_model.pkl: Trained machine learning model.
-- config.json: Configuration file for MongoDB connection.
+- app.py: Script for reading data from Kafka, applying the schema, using the trained model for prediction and storing the results in MongoDB.</br>
+- sendStream.py: Script for streaming data from a CSV file to a Kafka topic.</br>
+- clf_model.pkl: Trained machine learning model.</br>
+- config.json: Configuration file for MongoDB connection.</br>
 
 ## Author
 
